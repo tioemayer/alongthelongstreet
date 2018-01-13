@@ -1,10 +1,10 @@
-@font-face{
-    font-family:"Neuzeit S LT W01 Book";
-    src:url("Fonts/840b8bdf-7d26-449a-9620-8cb6663f18cc.eot?#iefix");
-    src:url("Fonts/840b8bdf-7d26-449a-9620-8cb6663f18cc.eot?#iefix") format("eot"),url("Fonts/d741af6b-26f4-4e34-b55d-432ccade3280.woff2") format("woff2"),url("Fonts/77aaeb7b-86f4-47a1-8196-74a660dd0919.woff") format("woff"),url("Fonts/efdf74e6-bfd4-466d-93fd-4f8f4d55b80c.ttf") format("truetype"),url("Fonts/be8d3917-a4cf-4d8f-b767-4e84bcbe300c.svg#be8d3917-a4cf-4d8f-b767-4e84bcbe300c") format("svg");
-}
 
-
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=92c0d567-133b-4888-abe5-f820797ebebb");
+    @font-face{
+        font-family:"Neuzeit S LT W01 Book";
+        src:url("Fonts/840b8bdf-7d26-449a-9620-8cb6663f18cc.eot?#iefix");
+        src:url("Fonts/840b8bdf-7d26-449a-9620-8cb6663f18cc.eot?#iefix") format("eot"),url("Fonts/d741af6b-26f4-4e34-b55d-432ccade3280.woff2") format("woff2"),url("Fonts/77aaeb7b-86f4-47a1-8196-74a660dd0919.woff") format("woff"),url("Fonts/efdf74e6-bfd4-466d-93fd-4f8f4d55b80c.ttf") format("truetype"),url("Fonts/be8d3917-a4cf-4d8f-b767-4e84bcbe300c.svg#be8d3917-a4cf-4d8f-b767-4e84bcbe300c") format("svg");
+    }
 
 h1 {
   font-size: 7rem;
@@ -12,6 +12,8 @@ h1 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 300px;
+  font-family:"Neuzeit S LT W01 Book";
+  font-weight:normal;
 }
 
 
@@ -21,6 +23,8 @@ h2 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
+  font-family:"Neuzeit S LT W01 Book";
+  font-weight:normal;
 }
 
 
@@ -30,6 +34,8 @@ h3 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
+  font-family:"Neuzeit S LT W01 Book";
+  font-weight:normal;
 }
 
 h4 {
@@ -38,6 +44,8 @@ h4 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
+  font-family:"Neuzeit S LT W01 Book";
+  font-weight:normal;
 }
 
 h5 {
@@ -46,17 +54,115 @@ h5 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
+  font-family:"Neuzeit S LT W01 Book";
+  font-weight:normal;
 }
 
-.full .cell:hover{
-  background-color: blue;
+
+#background-1:hover{
+  background-image:  url("../img/colors/IMG_1858.jpg");
+  background-size: cover;
+  background-position: center;
 }
+#background-1:hover h2{
+  opacity:0;
+}
+
+
+#background-2:hover{
+  background-image:  url("../img/lettering/IMG_1940.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#background-2:hover h3{
+  opacity:0;
+}
+
+
+#background-3:hover{
+  background-image:  url("../img/facade/IMG_1823.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#background-3:hover h3{
+  opacity:0;
+}
+
+
+#background-4:hover{
+  background-image:  url("../img/windows/IMG_1784.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#background-4:hover h2{
+  opacity:0;
+}
+
+
+#background-5:hover{
+  background-image:  url("../img/doors/IMG_1859.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#background-5:hover h4{
+  opacity:0;
+}
+
+
+#background-6:hover{
+  background-image:  url("../img/facade/IMG_1818.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#background-6:hover h3{
+  opacity:0;
+}
+
+
+
+.raster img {
+  border: 1px solid white;
+}
+
+.navi:hover {
+  color: blue;
+}
+
+
+/* ------- Default Stil */
+raster img{
+    opacity:0;
+    -webkit-transition: all 1s linear;
+    transition: all 1s linear;
+}
+
+#section-2 img.first{
+    transform: translate(-700px,0);
+}
+
+
+/* ------- Falls onScreen neuer Zustand Stil, hier kann irgendetwas verändert werden
+
+ */
+raster.isonScreen img{
+    opacity:1;
+}
+
+#section-2.isonScreen img.first{
+    transform: translate(0px,0);
+}
+
+
+
+
 
 
 
 a {
   color: black;
   text-decoration: none;
+  font-family:"Neuzeit S LT W01 Book";
+  font-weight:normal;
 }
 
 @media (max-width: 1000px) {
