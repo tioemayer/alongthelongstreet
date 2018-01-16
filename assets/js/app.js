@@ -15,10 +15,7 @@ $( ".raster img" ).each(function( index, section ) {
         container: window,
         direction: 'vertical',
         doIn: function() {
-            $(section).addClass('isonScreen');
-        },
-        doOut: function() {
-            $(section).removeClass('isonScreen');
+            $(section).addClass('onScreen');
         },
         tolerance: 0,
         throttle: 50,
@@ -26,5 +23,3 @@ $( ".raster img" ).each(function( index, section ) {
         debug: false
     });
 });
-
-direction: ''

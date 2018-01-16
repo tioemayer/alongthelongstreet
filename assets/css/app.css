@@ -1,18 +1,18 @@
 
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=92c0d567-133b-4888-abe5-f820797ebebb");
     @font-face{
-        font-family:"Neuzeit S LT W01 Book";
-        src:url("Fonts/840b8bdf-7d26-449a-9620-8cb6663f18cc.eot?#iefix");
-        src:url("Fonts/840b8bdf-7d26-449a-9620-8cb6663f18cc.eot?#iefix") format("eot"),url("Fonts/d741af6b-26f4-4e34-b55d-432ccade3280.woff2") format("woff2"),url("Fonts/77aaeb7b-86f4-47a1-8196-74a660dd0919.woff") format("woff"),url("Fonts/efdf74e6-bfd4-466d-93fd-4f8f4d55b80c.ttf") format("truetype"),url("Fonts/be8d3917-a4cf-4d8f-b767-4e84bcbe300c.svg#be8d3917-a4cf-4d8f-b767-4e84bcbe300c") format("svg");
+        font-family:"Conduit ITC W01 Bold";
+        src:url("Fonts/ef1cf8c3-989e-4b7e-ad89-9e034d47686d.eot?#iefix");
+        src:url("Fonts/ef1cf8c3-989e-4b7e-ad89-9e034d47686d.eot?#iefix") format("eot"),url("Fonts/4680ad80-371f-497c-8926-35654adc2249.woff2") format("woff2"),url("Fonts/fdaf48d4-c023-4a03-b948-53535ee4d571.woff") format("woff"),url("Fonts/ca6dc25e-d400-4735-9fb9-ee2d025ebb5c.ttf") format("truetype"),url("Fonts/aa206b9b-b888-4ce6-8039-669469e9b429.svg#aa206b9b-b888-4ce6-8039-669469e9b429") format("svg");
     }
 
 h1 {
-  font-size: 2rem;
+  font-size: 7rem;
   margin: 0;
   line-height: 90%;
   padding: 20px;
   margin-bottom: 300px;
-  font-family:"Neuzeit S LT W01 Book";
+  font-family:"Conduit ITC W01 Bold";
   font-weight:normal;
 }
 
@@ -23,7 +23,7 @@ h2 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
-  font-family:"Neuzeit S LT W01 Book";
+  font-family:"Conduit ITC W01 Bold";
   font-weight:normal;
 }
 
@@ -34,7 +34,7 @@ h3 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
-  font-family:"Neuzeit S LT W01 Book";
+  font-family:"Conduit ITC W01 Bold";
   font-weight:normal;
 }
 
@@ -44,7 +44,7 @@ h4 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
-  font-family:"Neuzeit S LT W01 Book";
+  font-family:"Conduit ITC W01 Bold";
   font-weight:normal;
 }
 
@@ -54,7 +54,7 @@ h5 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
-  font-family:"Neuzeit S LT W01 Book";
+  font-family:"Conduit ITC W01 Bold";
   font-weight:normal;
 }
 
@@ -120,6 +120,7 @@ h5 {
 
 
 
+
 .raster img {
   border: 1px solid white;
 }
@@ -129,31 +130,17 @@ h5 {
 }
 
 
-/* ------- Default Stil */
-raster img{
+
+
+.raster img{
     opacity:0;
     -webkit-transition: all 1s linear;
     transition: all 1s linear;
 }
 
-#section-2 img.first{
-    transform: translate(-700px,0);
-}
-
-
-/* ------- Falls onScreen neuer Zustand Stil, hier kann irgendetwas verändert werden
-
- */
-raster.isonScreen img{
+.raster img.onScreen{
     opacity:1;
 }
-
-#section-2.isonScreen img.first{
-    transform: translate(0px,0);
-}
-
-
-
 
 
 
@@ -161,9 +148,17 @@ raster.isonScreen img{
 a {
   color: black;
   text-decoration: none;
-  font-family:"Neuzeit S LT W01 Book";
+  font-family:"Conduit ITC W01 Bold";
   font-weight:normal;
 }
+
+
+
+
+
+
+
+
 
 @media (max-width: 1000px) {
   html {font-size: 12px;}
