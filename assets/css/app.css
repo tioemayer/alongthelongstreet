@@ -152,7 +152,7 @@ h5 {
 }
 
 
-.cell-small-2:hover {
+.navi:hover {
   color: black;
   opacity: 0.3;
   transition: 1s;
@@ -191,23 +191,24 @@ a {
 
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 15%;
     width: 100%;
-    text-align: center;
+    text-align: left;
     margin-top: 30px;
+    margin-left: 30px;
 }
 
 .overlay a {
     padding: 8px;
     text-decoration: none;
     font-size: 50px;
-    color: #818181;
+    color: #ffffff;
     display: block;
     transition: 0.3s;
 }
 
 .overlay a:hover, .overlay a:focus {
-    color: #f1f1f1;
+    color: #818181;
 }
 
 .overlay .closebtn {
