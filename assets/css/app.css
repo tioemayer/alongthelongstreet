@@ -1,10 +1,11 @@
 
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=92c0d567-133b-4888-abe5-f820797ebebb");
-    @font-face{
-        font-family:"Conduit ITC W01 Bold";
-        src:url("Fonts/ef1cf8c3-989e-4b7e-ad89-9e034d47686d.eot?#iefix");
-        src:url("Fonts/ef1cf8c3-989e-4b7e-ad89-9e034d47686d.eot?#iefix") format("eot"),url("Fonts/4680ad80-371f-497c-8926-35654adc2249.woff2") format("woff2"),url("Fonts/fdaf48d4-c023-4a03-b948-53535ee4d571.woff") format("woff"),url("Fonts/ca6dc25e-d400-4735-9fb9-ee2d025ebb5c.ttf") format("truetype"),url("Fonts/aa206b9b-b888-4ce6-8039-669469e9b429.svg#aa206b9b-b888-4ce6-8039-669469e9b429") format("svg");
-    }
+  @font-face{
+    font-family:"NeuzeitSLTW01-BookHeavy";
+    src:url("Fonts/74c31844-4217-4fe8-82f7-88a5075de2e8.eot?#iefix");
+    src:url("Fonts/74c31844-4217-4fe8-82f7-88a5075de2e8.eot?#iefix") format("eot"),url("Fonts/3da0a3e3-3dff-405c-a0b2-0b0050b21771.woff2") format("woff2"),url("Fonts/a1476bae-b118-4e9d-b711-c84091d9bc16.woff") format("woff"),url("Fonts/096111d9-3ba2-4828-ae9a-29fb4e03c0b1.ttf") format("truetype"),url("Fonts/74a8e701-bffc-464e-a60b-63169debd492.svg#74a8e701-bffc-464e-a60b-63169debd492") format("svg");
+  }
+
 
 h1 {
   font-size: 7rem;
@@ -12,7 +13,7 @@ h1 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 300px;
-  font-family:"Conduit ITC W01 Bold";
+  font-family:"NeuzeitSLTW01-BookHeavy";
   font-weight:normal;
 }
 
@@ -23,7 +24,7 @@ h2 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
-  font-family:"Conduit ITC W01 Bold";
+  font-family:"NeuzeitSLTW01-BookHeavy";
   font-weight:normal;
 }
 
@@ -34,7 +35,7 @@ h3 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
-  font-family:"Conduit ITC W01 Bold";
+  font-family:"NeuzeitSLTW01-BookHeavy";
   font-weight:normal;
 }
 
@@ -44,7 +45,7 @@ h4 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
-  font-family:"Conduit ITC W01 Bold";
+  font-family:"NeuzeitSLTW01-BookHeavy";
   font-weight:normal;
 }
 
@@ -54,7 +55,7 @@ h5 {
   line-height: 90%;
   padding: 20px;
   margin-bottom: 90px;
-  font-family:"Conduit ITC W01 Bold";
+  font-family:"NeuzeitSLTW01-BookHeavy";
   font-weight:normal;
 }
 
@@ -120,17 +121,14 @@ h5 {
 
 
 
-
-.raster img {
-  border: 1px solid white;
-}
-
 .navi:hover {
   color: blue;
 }
 
 
-
+.raster img {
+  border: 1px solid white;
+}
 
 .raster img{
     opacity:0;
@@ -142,17 +140,28 @@ h5 {
     opacity:1;
 }
 
-
-.grid-x-home:hover {
+.raster img:hover{
   color: black;
-  opacity: 0.1;
-  transition: 2s;
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.grid-x-home:hover{
+  color: black;
+  opacity: 0.3;
+  transition: 1s;
+}
+
+.cell-small-2:hover {
+  color: black;
+  opacity: 0.3;
+  transition: 1s;
 }
 
 a {
   color: black;
   text-decoration: none;
-  font-family:"Conduit ITC W01 Bold";
+  font-family:"NeuzeitSLTW01-BookHeavy";
   font-weight:normal;
 }
 
@@ -168,6 +177,10 @@ a {
   html {font-size: 12px;}
   #background-1 {width:100%}
   #background-2 {width:100%}
+  #background-3 {width:100%}
+  #background-4 {width:100%}
+  #background-5 {width:100%}
+  #background-6 {width:100%}
   }
 
 @media (max-width:600px) {
