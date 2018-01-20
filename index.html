@@ -3,21 +3,56 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>along the longstreet</title>
 
   <link rel="stylesheet" href="assets/css/foundation.css">
   <link rel="stylesheet" href="assets/css/app.css">
+  <link href="dist/hamburgers.css" rel="stylesheet">
+
+
+  <button class="hamburger hamburger--3dx" type="button">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+  </button>
+
+
 
 </head>
 <body>
 
 
 
+
+
+
+
+
+  <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="color.html">color</a>
+      <a href="lettering.html">lettering</a>
+      <a href="windows.html">windows</a>
+      <a href="doors.html">doors</a>
+      <a href="facade.html">facade</a>
+      <a href="all.html">all</a>
+    </div>
+  </div>
+
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+
+
+
+
+
+
+
 <div class="grid-x home">
 
   <div class="cell small-9">
-    <h1><a href="index.html">along <br> the <br> longstreet</a></h1>
+    <h1 class="logo"><a href="index.html">along <br> the <br> longstreet</a></h1>
   </div>
 
 </div>
@@ -33,7 +68,6 @@
     <div id="background-2" class="cell small-4">
       <h3><a href="lettering.html">lettering<br>logo<br>marking<br>caption</a></h3>
     </div>
-
 
   </div>
 
@@ -68,6 +102,15 @@
 
 
 
+  <script>
+  function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+  }
+
+  function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+  }
+  </script>
 
 <script src="assets/js/vendor/jquery.js"></script>
 <script src="assets/js/vendor/what-input.js"></script>
