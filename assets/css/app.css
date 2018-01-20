@@ -121,10 +121,6 @@ h5 {
 
 
 
-.navi:hover {
-  color: blue;
-}
-
 
 .raster img {
   border: 1px solid white;
@@ -146,11 +142,15 @@ h5 {
   transition: 1s;
 }
 
-.grid-x-home:hover{
+
+
+
+.home:hover{
   color: black;
   opacity: 0.3;
   transition: 1s;
 }
+
 
 .cell-small-2:hover {
   color: black;
@@ -172,9 +172,12 @@ a {
 
 
 
-
 @media (max-width: 1000px) {
   html {font-size: 12px;}
+  h1 {font-size:14px;}
+  h2 {font-size:22px}
+  h3 {font-size:22px}
+  h4 {font-size:22px}
   #background-1 {width:100%}
   #background-2 {width:100%}
   #background-3 {width:100%}
