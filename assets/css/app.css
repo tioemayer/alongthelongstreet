@@ -1,4 +1,4 @@
-
+/* ------- FONTS --------- */
 @import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=92c0d567-133b-4888-abe5-f820797ebebb");
   @font-face{
     font-family:"NeuzeitSLTW01-BookHeavy";
@@ -8,7 +8,7 @@
 
 
 h1 {
-  font-size: 7rem;
+  font-size: 2rem;
   margin: 0;
   line-height: 90%;
   padding: 20px;
@@ -59,7 +59,45 @@ h5 {
   font-weight:normal;
 }
 
+h6 {
+  font-size: 2.5rem;
+  margin: 0;
+  line-height: 120%;
+  padding: 20px;
+  margin-bottom: 90px;
+  font-family:"NeuzeitSLTW01-BookHeavy";
+  font-weight:normal;
+}
 
+ h7 {
+  font-size: 2rem;
+  margin: 0;
+  line-height: 90%;
+  padding: 20px;
+  margin-bottom: 200px;
+  font-family:"NeuzeitSLTW01-BookHeavy";
+  font-weight:normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-family:"NeuzeitSLTW01-BookHeavy";
+  font-weight:normal;
+}
+
+.underline {
+  padding-bottom: 2px;
+  border-bottom: 4px solid black;
+}
+/* ------- FONTS --------- */
+
+
+
+
+
+
+/* ------- Home Startseite Bild-Hover --------- */
 #background-1:hover{
   background-image:  url("../img/home/IMG_1922.jpg");
   background-size: cover;
@@ -111,7 +149,7 @@ h5 {
 
 
 #background-6:hover{
-  background-image:  url("../img/facade/IMG_1818.jpg");
+  background-image:  url("../img/home/IMG_1571_be.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -120,8 +158,26 @@ h5 {
 }
 
 
+#background-7:hover{
+  background-image:  url("../img/home/TieuKhe_Mayer.jpg");
+  background-size: cover;
+  background-position: center;
+  height:700px;
+}
+#background-7:hover h3{
+  opacity:0;
+}
+
+/* ------- Home Startseite Bild-Hover --------- */
 
 
+
+
+
+
+
+
+/* ------- Rasterlinien, JQuery-Effekt Bilder-Galerie --------- */
 .raster img {
   border: 1px solid white;
 }
@@ -135,22 +191,19 @@ h5 {
 .raster img.onScreen{
     opacity:1;
 }
-
-.raster img:hover{
-  color: black;
-  opacity: 0.3;
-  transition: 1s;
-}
+/* ------- Rasterlinien, JQuery-Effekt Bilder-Galerie --------- */
 
 
 
 
+
+
+/* ------- Hover Effekte --------- */
 .logo:hover{
   color: black;
   opacity: 0.3;
   transition: 1s;
 }
-
 
 .navi:hover {
   color: black;
@@ -158,13 +211,18 @@ h5 {
   transition: 1s;
 }
 
-a {
+.raster img:hover{
   color: black;
-  text-decoration: none;
-  font-family:"NeuzeitSLTW01-BookHeavy";
-  font-weight:normal;
+  opacity: 0.3;
+  transition: 1s;
 }
 
+.burger-menu:hover{
+  color: black;
+  opacity: 0.3;
+  transition: 1s;
+}
+/* ------- Hover Effekte --------- */
 
 
 
@@ -172,8 +230,42 @@ a {
 
 
 
+/* ------- Back to top BUTTON --------- */
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+/* ------- Back to top BUTTON --------- */
 
 
+
+
+
+
+/* ------- BURGER-MENU --------- */
+.burger-menu {
+  padding: 20px 30px;
+  top: 0;
+  right: 0;
+  font-size: 35px;
+  cursor: pointer;
+  position: absolute;
+  display: block;
+}
 
 
 .overlay {
@@ -194,8 +286,9 @@ a {
     top: 15%;
     width: 100%;
     text-align: left;
+    line-height: 45px;
     margin-top: 30px;
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .overlay a {
@@ -213,9 +306,9 @@ a {
 
 .overlay .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
+    top: 2px;
+    right: 22px;
+    font-size: 50px;
 }
 
 @media screen and (max-height: 450px) {
@@ -226,6 +319,7 @@ a {
     right: 35px;
   }
 }
+/* ------- BURGER-MENU --------- */
 
 
 
@@ -244,11 +338,10 @@ a {
 
 
 
-
-
-
+/* ------- MediaQuery Responsive --------- */
 @media (max-width: 1024px) {
   html {font-size: 10px;}
+  h1 {font-size:25px;}
   }
 
 @media (max-width:600px) {
@@ -264,3 +357,4 @@ a {
   #background-5 {width:100%}
   #background-6 {width:100%}
   }
+/* ------- MediaQuery Responsive --------- */

@@ -12,12 +12,34 @@
 </head>
 <body>
 
-<div class="grid-x">
-  <div class="cell small-4 medium-5 large-6">
-    <h1 class="logo"><a href="index.html">along <br> the <br> longstreet </h1>
-  </div>
-</div>
 
+  <!--BURGER MENU -->
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="all.html">all</a>
+        <a href="facade.html">facade</a>
+        <a href="color.html">color</a>
+        <a href="lettering.html">lettering</a>
+        <a href="doors.html">doors</a>
+        <a href="windows.html">windows</a>
+        <a href="about.html">about</a>
+      </div>
+    </div>
+
+  <span class="burger-menu" onclick="openNav()">&#9776;</span>
+  <!--BURGER MENU -->
+
+
+  <div class="grid-x home">
+
+    <div class="cell small-9">
+      <h1 class="logo"><a href="index.html">along <br> the <br> longstreet</a></h1>
+    </div>
+
+  </div>
+
+<!--
 <div class="grid-container full">
   <div class="grid-x">
 
@@ -47,7 +69,7 @@
 
   </div>
 </div>
-
+-->
 
 
 <div class="grid-container full raster">
@@ -140,7 +162,18 @@
 
 
 
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+
+<script>
+function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+}
+</script>
 
 <script src="assets/js/vendor/jquery.js"></script>
 <script src="assets/js/vendor/what-input.js"></script>
