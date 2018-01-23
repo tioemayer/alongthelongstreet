@@ -162,7 +162,6 @@ a {
   background-image:  url("../img/home/TieuKhe_Mayer.jpg");
   background-size: cover;
   background-position: center;
-  height:700px;
 }
 #background-7:hover h3{
   opacity:0;
@@ -206,12 +205,6 @@ a {
 }
 
 .navi:hover {
-  color: black;
-  opacity: 0.3;
-  transition: 1s;
-}
-
-.raster img:hover{
   color: black;
   opacity: 0.3;
   transition: 1s;
