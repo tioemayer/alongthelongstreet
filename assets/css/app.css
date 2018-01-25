@@ -159,9 +159,11 @@ a {
 
 
 #background-7:hover{
-  background-color: grey;
+  background-image:  url("../img/home/TieuKhe_Mayer_1.jpg");
+  background-size: cover;
+  background-position: center;
 }
-#background-7:hover h3{
+#background-7:hover h2{
   opacity:0;
 }
 
