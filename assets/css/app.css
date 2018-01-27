@@ -164,9 +164,6 @@ a {
 
 #background-7:hover{
   background-color: #433544;
-/* background-image:  url("../img/home/tioe.jpg");
-  background-size: cover;
-  background-position: center; */
 
 }
 #background-7:hover h2{
@@ -229,6 +226,7 @@ a {
 
 /* ------- Back to top BUTTON --------- */
 #myBtn {
+    font-family:"NeuzeitSLTW01-BookHeavy";
     display: none; /* Hidden by default */
     position: fixed; /* Fixed/sticky position */
     bottom: 20px; /* Place the button at the bottom of the page */
@@ -245,6 +243,27 @@ a {
 
 #myBtn:hover {
     background-color: #ffff /* Add a dark-grey background on hover */
+}
+
+#myBtn {
+    font-family:"NeuzeitSLTW01-BookHeavy";
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: none; /* Set a background color */
+    color: black; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 0px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    color: white;
+    background-color: black; /* Add a dark-grey background on hover */
 }
 /* ------- Back to top BUTTON --------- */
 
@@ -280,7 +299,7 @@ a {
 
 .overlay-content {
     position: relative;
-    top: 15%;
+    top: 0%;
     width: 100%;
     text-align: left;
     line-height: 45px;
