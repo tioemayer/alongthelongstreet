@@ -12,7 +12,7 @@ h1 {
   margin: 0;
   line-height: 90%;
   padding: 20px;
-  margin-bottom: 150px;
+  margin-bottom: 200px;
   font-family:"NeuzeitSLTW01-BookHeavy";
   font-weight:normal;
 }
@@ -90,6 +90,10 @@ a {
   padding-bottom: 2px;
   border-bottom: 4px solid black;
 }
+
+.absout {
+  padding-right: 100px;
+}
 /* ------- FONTS --------- */
 
 
@@ -159,17 +163,17 @@ a {
 
 
 #background-7:hover{
-  background-image:  url("../img/home/TieuKhe_Mayer_1.jpg");
+  background-color: #433544;
+/* background-image:  url("../img/home/tioe.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center; */
+
 }
 #background-7:hover h2{
   opacity:0;
 }
 
 /* ------- Home Startseite Bild-Hover --------- */
-
-
 
 
 
@@ -313,10 +317,6 @@ a {
   }
 }
 /* ------- BURGER-MENU --------- */
-
-
-
-
 
 
 
